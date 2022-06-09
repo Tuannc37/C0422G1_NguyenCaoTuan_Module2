@@ -233,4 +233,3 @@ public class DocSo {
         System.out.printf("So vua nhap la %s :",readNumber);
     }
 }
-
