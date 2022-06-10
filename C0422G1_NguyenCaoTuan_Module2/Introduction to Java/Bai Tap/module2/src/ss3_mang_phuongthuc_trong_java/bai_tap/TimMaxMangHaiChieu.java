@@ -4,9 +4,7 @@ import java.util.Scanner;
 public class TimMaxMangHaiChieu {
     public static void main(String[] args) {
         int soDong, soCot;
-
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Nhập vào số dòng của mảng: ");
         soDong = scanner.nextInt();
         System.out.println("Nhập vào số cột của mảng: ");
