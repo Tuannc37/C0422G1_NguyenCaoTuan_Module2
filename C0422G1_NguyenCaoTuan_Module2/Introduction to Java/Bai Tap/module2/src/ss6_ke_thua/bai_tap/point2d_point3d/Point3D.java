@@ -25,8 +25,10 @@ public class Point3D extends Point2D {
         this.z = z;
     }
 
-    public void setXYZ(){
-        System.out.print("(" + super.getX() + " , " + super.getY() + " , " + getZ() + ")");
+    public void setXYZ(float x,float y,float z){
+        super.setX(x);
+        super.setY(y);
+        setZ(z);
     }
     public float[] getXYZ(float x,float y,float z){
         float[] a ={x,y,z};
