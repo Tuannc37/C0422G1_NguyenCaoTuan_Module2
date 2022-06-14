@@ -1,4 +1,4 @@
-package ss5_ke_thua.bai_tap.point2d_point3d;
+package ss6_ke_thua.bai_tap.point2d_point3d;
 
 public class Point3D extends Point2D {
     private float z = 0.0f;
@@ -25,7 +25,7 @@ public class Point3D extends Point2D {
         this.z = z;
     }
 
-    public void setXYZ(float x,float y,float z){
+    public void setXYZ(){
         System.out.print("(" + super.getX() + " , " + super.getY() + " , " + getZ() + ")");
     }
     public float[] getXYZ(float x,float y,float z){
@@ -35,6 +35,6 @@ public class Point3D extends Point2D {
 
     @Override
     public String toString() {
-        return "\nx = " + getX() + "\ny = " + getY() + "\nz = " + getZ() + "\nTọa độ B(" + super.getX() + " , " + super.getY() + " , " + getZ() + ")";
+        return "\nx = " + super.getX() + "\ny = " + super.getY() + "\nz = " + getZ() + "\nTọa độ B(" + super.getX() + " , " + super.getY() + " , " + getZ() + ")";
     }
 }

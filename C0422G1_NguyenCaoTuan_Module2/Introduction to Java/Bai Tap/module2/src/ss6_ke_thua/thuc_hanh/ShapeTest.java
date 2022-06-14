@@ -1,4 +1,4 @@
-package ss5_ke_thua.thuc_hanh;
+package ss6_ke_thua.thuc_hanh;
 
 public class ShapeTest {
     public static void main(String[] args) {

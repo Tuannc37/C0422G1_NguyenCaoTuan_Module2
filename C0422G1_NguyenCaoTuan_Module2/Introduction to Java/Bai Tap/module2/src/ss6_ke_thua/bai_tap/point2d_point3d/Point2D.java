@@ -1,4 +1,4 @@
-package ss5_ke_thua.bai_tap.point2d_point3d;
+package ss6_ke_thua.bai_tap.point2d_point3d;
 
 public class Point2D {
     private float x = 0.0f;
@@ -30,7 +30,7 @@ public class Point2D {
         this.y = y;
     }
 
-    public void setXY(float x,float y){
+    public void setXY(){
         System.out.print("(" + getX() + " , " + getY() + ")");
     }
 

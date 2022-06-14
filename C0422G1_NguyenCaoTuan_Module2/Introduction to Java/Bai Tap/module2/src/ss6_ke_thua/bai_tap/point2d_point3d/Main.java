@@ -1,4 +1,4 @@
-package ss5_ke_thua.bai_tap.point2d_point3d;
+package ss6_ke_thua.bai_tap.point2d_point3d;
 
 public class Main {
     public static void main(String[] args) {
