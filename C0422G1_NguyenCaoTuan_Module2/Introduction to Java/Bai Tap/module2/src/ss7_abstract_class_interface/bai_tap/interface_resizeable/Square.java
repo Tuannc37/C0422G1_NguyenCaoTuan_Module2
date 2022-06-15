@@ -1,7 +1,5 @@
 package ss7_abstract_class_interface.bai_tap.interface_resizeable;
 
-
-
 public class Square extends Shape  {
     private double side = 1.0;
 

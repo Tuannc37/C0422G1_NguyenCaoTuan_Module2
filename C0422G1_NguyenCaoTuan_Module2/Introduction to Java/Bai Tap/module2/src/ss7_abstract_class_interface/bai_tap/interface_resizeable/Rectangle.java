@@ -1,7 +1,5 @@
 package ss7_abstract_class_interface.bai_tap.interface_resizeable;
 
-
-
 public class Rectangle extends Shape implements Colorable {
     private double width = 1.0;
     private double height = 1.0;
