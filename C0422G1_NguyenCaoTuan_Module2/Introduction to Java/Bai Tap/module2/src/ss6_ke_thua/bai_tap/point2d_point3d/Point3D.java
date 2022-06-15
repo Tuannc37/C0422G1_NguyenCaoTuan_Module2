@@ -30,8 +30,8 @@ public class Point3D extends Point2D {
         super.setY(y);
         setZ(z);
     }
-    public float[] getXYZ(float x,float y,float z){
-        float[] a ={x,y,z};
+    public float[] getXYZ(){
+        float[] a ={getX(),getY(),getZ()};
         return a;
     }
 
