@@ -1,7 +1,7 @@
 package ss9_danhsach.bai_tap.bai1;
 
 public class MyArrayListTest {
-    
+
     public static void main(String[] args) {
         Student student1 = new Student(1,"Tuan");
         Student student2 = new Student(2,"Thin");

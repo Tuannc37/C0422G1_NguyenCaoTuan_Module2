@@ -23,6 +23,10 @@ public class MyArrayList<E> {
         return this.size;
     }
 
+    public int getSizeOfList() {
+        return elements.length;
+    }
+
     public void clear(){
         size = 0;
         for(int i = 0; i < elements.length;i++){
@@ -58,6 +62,19 @@ public class MyArrayList<E> {
             elements[index] = element;
             size++;
         }
+    }
+
+    public E cloneList() {
+        return (E) elements.clone();
+    }
+
+    public int indexOf(Object o) {
+        for (int i = 0; i < getSizeOfList(); i++) {
+            if ((E) elements[i] == o) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     public void ensureCapacity(int minCapacity){
