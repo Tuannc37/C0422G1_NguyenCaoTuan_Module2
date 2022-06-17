@@ -1,5 +1,4 @@
 package ss9_danhsach.bai_tap.bai1;
-
 import java.util.Arrays;
 
 public class MyArrayList<E> {
