@@ -23,15 +23,39 @@ public class MyArrayList<E> {
         return this.size;
     }
 
+    public E cloneList() {
+        return (E) elements.clone();
+    }
+
+    public E remove(int index) {
+        E e = (E) elements[index];
+        for (int i = index; i < getSizeOfList() - 1; i++) {
+            elements[i] = elements[i + 1];
+        }
+        elements[getSizeOfList() - 1] = null;
+        return e;
+    }
+
     public int getSizeOfList() {
         return elements.length;
     }
 
-    public void clear(){
-        size = 0;
-        for(int i = 0; i < elements.length;i++){
-            elements[i] = null;
+    public boolean containsXInElement(Object x) {
+        for (Object o : elements) {
+            if (o == x) {
+                return true;
+            }
         }
+        return false;
+    }
+
+    public int indexOf(Object o) {
+        for (int i = 0; i < getSizeOfList(); i++) {
+            if ((E) elements[i] == o) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     public boolean add(E element){
@@ -64,18 +88,6 @@ public class MyArrayList<E> {
         }
     }
 
-    public E cloneList() {
-        return (E) elements.clone();
-    }
-
-    public int indexOf(Object o) {
-        for (int i = 0; i < getSizeOfList(); i++) {
-            if ((E) elements[i] == o) {
-                return i;
-            }
-        }
-        return -1;
-    }
 
     public void ensureCapacity(int minCapacity){
         if(minCapacity >= 0){
@@ -84,6 +96,20 @@ public class MyArrayList<E> {
         }
         else {
             throw new IllegalArgumentException("minCapacity : " + minCapacity);
+        }
+    }
+
+    public E get(int i) {
+        if (i >= size || i < 0) {
+            throw new IndexOutOfBoundsException("Index: " + i + ", Size " + i);
+        }
+        return (E) elements[i];
+    }
+
+    public void clear(){
+        size = 0;
+        for(int i = 0; i < elements.length;i++){
+            elements[i] = null;
         }
     }
 }
