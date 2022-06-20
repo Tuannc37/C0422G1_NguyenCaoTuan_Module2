@@ -10,10 +10,10 @@ public class StringCheck {
         System.out.println("Nhập vào chuỗi cần kiểm tra");
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
-        System.out.println(balancedParenthensies(str));
+        System.out.println(kiemTraDau(str));
 
     }
-    public static boolean balancedParenthensies(String str) {
+    public static boolean kiemTraDau(String str) {
         List<Character> leftKeys = Arrays.asList('(');
         List<Character> rightKeys = Arrays.asList(')');
 
