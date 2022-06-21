@@ -3,7 +3,6 @@ package ss10_stack_queue.bai_tap.kiemtrachuoi;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-import java.util.Stack;
 
 public class CheckPalindrome {
     public static void main(String[] args) {
