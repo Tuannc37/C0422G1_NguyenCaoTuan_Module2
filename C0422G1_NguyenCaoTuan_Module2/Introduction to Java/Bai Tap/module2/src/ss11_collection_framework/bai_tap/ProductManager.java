@@ -94,7 +94,6 @@ public class ProductManager {
     public static void xoaSanPham(){
         System.out.println("Nhập vào mã hàng hóa cần tìm");
         String maHH = scanner.nextLine();
-
         for (int i = 0; i < productList.size(); i++) {
             if (productList.get(i).getMaHH().equalsIgnoreCase(maHH)) {
                 productList.remove(productList.get(i));
