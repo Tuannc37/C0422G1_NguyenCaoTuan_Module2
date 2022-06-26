@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class ProductService implements IService {
     Scanner scanner = new Scanner(System.in);
-    private static final ArrayList<Product> productArrayList = new ArrayList<Product>();
+    private static final ArrayList<Product> productArrayList = new ArrayList<>();
 
     static {
         productArrayList.add(new Product(1, "bia", 15000));
