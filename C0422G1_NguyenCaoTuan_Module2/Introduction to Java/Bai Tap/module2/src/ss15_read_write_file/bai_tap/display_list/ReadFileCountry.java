@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ReadFileCountry {
-    public static List<Country> readNationFile(){
+    public static List<Country> readCountryFile(){
         List<Country> countryList = new ArrayList<>();
         File file = new File("src/ss15_read_write_file/bai_tap/display_list/csv.txt");
         FileReader fileReader = null;
@@ -20,8 +20,8 @@ public class ReadFileCountry {
             bufferedReader = new BufferedReader(fileReader);
             while ((line=bufferedReader.readLine())!=null){
                 arr = line.split(",");
-                Country nation = new Country(Integer.parseInt(arr[0]),arr[1],arr[2]);
-                countryList.add(nation);
+                Country country = new Country(Integer.parseInt(arr[0]),arr[1],arr[2]);
+                countryList.add(country);
             }
             bufferedReader.close();
         } catch (Exception e) {
