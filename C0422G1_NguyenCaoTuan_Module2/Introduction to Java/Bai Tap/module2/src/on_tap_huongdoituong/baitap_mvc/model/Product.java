@@ -5,7 +5,7 @@ public class Product {
     private String Name;
     private int Cost;
 
-    public Product() {
+    public Product(String id, String name, String manufacturer, float price) {
     }
 
     public Product(int id, String name, int cost) {

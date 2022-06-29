@@ -1,4 +1,4 @@
-package ss16_binaryfile_serialization.thuc_hanh.file_binary;
+package ss16_binaryfile_serialization.bai_tap.baitap_mvc.bai2.file_binary;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -7,44 +7,35 @@ import java.util.Scanner;
 
 public class CopyFile {
 
-    private static void copyFileUsingJava7Files(File source, File dest) throws IOException {
-        Files.copy(source.toPath(), dest.toPath(), StandardCopyOption.REPLACE_EXISTING);
-    }
-
-    private static void copyFileUsingStream(File source, File dest) throws IOException {
-        InputStream is = null;
-        OutputStream os = null;
+    private static void copyFileUsingStream(File source, File target) {
+        InputStream inputStream = null;
+        OutputStream outputStream = null;
         try {
-            is = new FileInputStream(source);
-            os = new FileOutputStream(dest);
+            inputStream = new FileInputStream(source);
+            outputStream = new FileOutputStream(target);
             byte[] buffer = new byte[1024];
             int length;
-            while ((length = is.read(buffer)) > 0) {
-                os.write(buffer, 0, length);
+            while ((length = inputStream.read(buffer)) > 0) {
+                outputStream.write(buffer, 0, length);
             }
+        } catch (FileNotFoundException exception) {
+            exception.printStackTrace();
+        } catch (IOException exception) {
+            exception.printStackTrace();
         } finally {
-            is.close();
-            os.close();
+            try {
+                inputStream.close();
+                outputStream.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
+
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-
-        System.out.printf("Enter source file:");
-        String sourcePath = in.nextLine();
-        System.out.printf("Enter destination file:");
-        String destPath = in.nextLine();
-
-        File sourceFile = new File(sourcePath);
-        File destFile = new File(destPath);
-
-        try {
-            copyFileUsingJava7Files(sourceFile, destFile);
-            //copyFileUsingStream(sourceFile, destFile);
-            System.out.printf("Copy completed");
-        } catch (IOException ioe) {
-            System.out.printf("Can't copy that file");
-            System.out.printf(ioe.getMessage());
-        }
+        File sourceFile = new File("ss16_binaryfile_serialization/bai_tap/baitap_mvc/bai2/file_binary/source _file.dat");
+        File target = new File("ss16_binaryfile_serialization/bai_tap/baitap_mvc/bai2/file_binary/target _file.dat");
+        copyFileUsingStream(sourceFile, target);
+        System.out.println("Số byte: " + target.length());
     }
 }

@@ -4,16 +4,16 @@ import ss16_binaryfile_serialization.bai_tap.baitap_mvc.bai1.service.iplm.Produc
 
 import java.util.Scanner;
 
-public class MainProduct {
-    private static ProductService productService = new ProductService();
-
+public class MainProductController {
+    static ProductService productService = new ProductService();
     public static void displayMainMenu() {
+
         boolean flag = true;
         do {
             System.out.println("Chức năng của hệ thống " +
                     "\n 1.Thêm " +
                     "\n 2.Hiển thị " +
-                    "\n 3.Tìm tên " +
+                    "\n 3.Tìm sản phẩm " +
                     "\n 4.Thoát ");
             Scanner scanner = new Scanner(System.in);
             System.out.println("Chọn chức năng");
@@ -28,10 +28,10 @@ public class MainProduct {
                     productService.display();
                     break;
                 case 3:
-                    System.out.println("Chức năng tìm kiếm sản phẩm theo tên");
-                    System.out.println("Nhập tên cần tìm ");
-                    String name = scanner.nextLine();
-                    productService.searchByName(name);
+                    System.out.println("Chức năng tìm kiếm sản phẩm theo id");
+                    System.out.println("Nhập id cần tìm ");
+                    int id = Integer.parseInt(scanner.nextLine());
+                    productService.findProductById(id);
                     break;
                 default:
                     flag = false;

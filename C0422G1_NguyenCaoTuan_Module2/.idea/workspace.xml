@@ -5,16 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10a478ea-c8e7-497d-8372-f188eee7d9a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Introduction to Java/Bai Tap/quydoi-tiente/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/src/ss16_binaryfile_serialization/bai_tap/baitap_mvc/bai1/controller/MainProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/src/ss16_binaryfile_serialization/bai_tap/baitap_mvc/bai1/data/product.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/src/ss16_binaryfile_serialization/bai_tap/baitap_mvc/bai2/file_binary/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/src/ss16_binaryfile_serialization/bai_tap/baitap_mvc/bai2/file_binary/end.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/src/ss16_binaryfile_serialization/bai_tap/baitap_mvc/bai2/file_binary/start.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/src/ss16_binaryfile_serialization/thuc_hanh/file_binary/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/src/ss16_binaryfile_serialization/thuc_hanh/file_binary/end.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/src/ss16_binaryfile_serialization/thuc_hanh/file_binary/start.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/src/ss16_binaryfile_serialization/thuc_hanh/read_write_student/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/src/ss16_binaryfile_serialization/thuc_hanh/read_write_student/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/out/production/module2/ss1_introduction_to_java/bai_tap/HienThiLoiChao.class" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/out/production/module2/ss1_introduction_to_java/bai_tap/HienThiLoiChao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/out/production/module2/ss5_ke_thua/bai_tap/circle_cylinder/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/out/production/module2/ss5_ke_thua/bai_tap/circle_cylinder/Cylinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/out/production/module2/ss5_ke_thua/bai_tap/circle_cylinder/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/out/production/module2/ss5_ke_thua/bai_tap/point2d_point3d/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/out/production/module2/ss5_ke_thua/bai_tap/point2d_point3d/Point2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/out/production/module2/ss5_ke_thua/bai_tap/point2d_point3d/Point3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/out/production/module2/ss5_ke_thua/thuc_hanh/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/out/production/module2/ss5_ke_thua/thuc_hanh/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/out/production/module2/ss5_ke_thua/thuc_hanh/ShapeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/src/on_tap_huongdoituong/baitap_mvc/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction to Java/Bai Tap/module2/src/on_tap_huongdoituong/baitap_mvc/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Bai Tap/quydoi-tiente/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/giaiphuongtrinh-bacnhat/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/giaiphuongtrinh-bacnhat/.idea/description.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/giaiphuongtrinh-bacnhat/.idea/encodings.xml" beforeDir="false" />
@@ -36,27 +48,7 @@
       <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/kiemtra-namnhuan/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/kiemtra-namnhuan/kiemtra-namnhuan.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/kiemtra-namnhuan/src/com/codegym/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/out/production/untitled104/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/out/production/untitled104/SystemTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/out/production/untitled104/TinhDienTich.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/out/production/untitled104/com/codegym/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/src/SystemTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/src/TinhDienTich.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/src/com/codegym/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/system-time.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/tinhsongay-trongthang/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/tinhsongay-trongthang/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/tinhsongay-trongthang/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/tinhsongay-trongthang/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/tinhsongay-trongthang/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/tinhsongay-trongthang/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/tinhsongay-trongthang/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/tinhsongay-trongthang/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/tinhsongay-trongthang/out/production/tinhsongay-trongthang/com/codegym/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/tinhsongay-trongthang/src/com/codegym/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/tinhsongay-trongthang/tinhsongay-trongthang.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to Java/Thuc Hanh/untitled104.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +68,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Introduction to Java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -94,6 +86,7 @@
       <workItem from="1654502614947" duration="53000" />
       <workItem from="1654564964725" duration="573000" />
       <workItem from="1654565717525" duration="1330000" />
+      <workItem from="1656410552335" duration="32000" />
     </task>
     <servers />
   </component>

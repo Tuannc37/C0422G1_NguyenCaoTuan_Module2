@@ -1,4 +1,4 @@
-package ss16_binaryfile_serialization.thuc_hanh;
+package ss16_binaryfile_serialization.thuc_hanh.file_binary;
 
 import java.io.*;
 import java.nio.file.Files;
